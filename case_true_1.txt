@@ -1,0 +1,4 @@
+if a <= b and c > b :
+    a = b + c
+else :
+    a = b * c
