@@ -1,7 +1,7 @@
 if c >= b :
-    if a < b:
+    if a < b :
         c = a + b
-    else:
+    else :
         c = a / b
 else :
     a = b * c

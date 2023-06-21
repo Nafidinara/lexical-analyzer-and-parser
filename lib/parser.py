@@ -107,6 +107,9 @@ def validator(arr_token):
                 push(stack,"D")
                 push(stack,"8")
                 push(stack,"D")
+            elif symbol == "9": #for nested
+                pop(stack)
+                push(stack,"S")
             else:
                 return False
         
